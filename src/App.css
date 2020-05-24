@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.cells {
+  margin: 20px;
+  border: 1px gray solid;
+ 
+}
+
+.cells .row {
+  display: flex;
+}
+
+.cell {
+  width: 10px;
+  height: 10px;
+  border: 1px gray solid;
+  margin: 1px;
+}
+.live {
+  background-color: black;
+}
+
+.dead {
+  background-color: blanchedalmond;
+}
